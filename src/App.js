@@ -1,27 +1,16 @@
-import React from 'react';
-import Images from './images'
-import './index.css';
-
+import React from "react";
+import Images from "./images";
+import Search from "./search.jsx";
+import "./index.css";
 
 function App() {
   return (
+    <>
+      <Images />
 
-        <>
-        
-        <Images/>
-        
-        
-        
-        </>
-
-
-
-
-
-
-
-
-     );
+      <Search />
+    </>
+  );
 }
 
 export default App;
